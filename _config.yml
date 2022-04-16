@@ -26,6 +26,14 @@ baseurl: "/my-blog" # the subpath of your site, e.g. /blog
 url: "https://ashishburman07.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ashishB07
 github_username:  aBurman07
+facebook_username: Ashishburman75
+instagram_username: ashishInsta
+linkedin_username: ashish-burman
+
+# custom fields not comes in default but is there
+author: Ashish Burman
+copyright: "BluSynergy LLC"
+title-logo: /images/blusynergy_logo_final.png
 
 # Build settings
 # not using minima theme - instead using regular theme
