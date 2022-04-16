@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Business Post 2"
+date:   2022-04-15 22:43:25 +0530
+category: Business
+---
+Ashish Business post 2
