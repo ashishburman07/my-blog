@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: BluSynergy
+title: ReviewPoint
 email: ashish@blusynergy.com
 description: >- # this means to ignore newlines until "baseurl:"
   Description of My profile. Please send and email in ashish@blusyenrgy.com for furtehr communication.
@@ -32,8 +32,9 @@ linkedin_username: ashish-burman
 
 # custom fields not comes in default but is there
 author: Ashish Burman
-copyright: "BluSynergy LLC"
-title-logo: /images/blusynergy_logo_final.png
+copyright: "ReviewPoint PVT LTD"
+title-logo: /images/logo.png
+my-logo: /profilePic.jpg
 
 # Build settings
 # not using minima theme - instead using regular theme

@@ -3,32 +3,17 @@ layout: default
 ---
 
 <div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
-
-  {{ content }}
-
-  {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-    <ul class="post-list">
-      {%- for post in site.posts -%}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
-
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-  {%- endif -%}
-
+  <img src="/my-blog/images/profilePic.jpg" alt="{{ site.title | escape }}"></img>
+  <h2>Ashish Burman</h2>
+  <h4>Working as a Senior Software Deveoper in BluSynergy LLC. </h4>
+  <p>Previously I worked In TCS for 3 years and 3 months approx, there i was more of a multipurpose resource to be honest, I was given bugs to solve, included in groups to deliver CRs from cient. Apart from busg and CRs there used to be a release cycle, every year 2 releases would be shipped from our ODC one is the manjor one and another a minor one. We were into a group of 3-4 resouces where one would be the lead of that group/module. There we had features divided into modules, say Claims,Money,Workflow etc such were the categories of modules. 
+    I had hands on and a lot of learnings in the first 2 years of being in TCS and in the third year i was promoted to a different proejct with slightly newers technology.
+  </p>
+  <p>
+    There i worked for a Product internal to TCS. 
+  </p>
 </div>
+
+
+
+

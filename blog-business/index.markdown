@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home-business
-title: "Business Blog"
+title: "Business"
 category: Business
+list_title: business posts
 ---
